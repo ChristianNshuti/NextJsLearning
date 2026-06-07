@@ -46,7 +46,6 @@ export function ProjectProvider({
     );
 }
 
-
 export function useProjects() {
     const context = useContext(ProjectContext);
 
