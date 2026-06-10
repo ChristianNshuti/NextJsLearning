@@ -5,6 +5,7 @@ export interface Project {
     status: "Planning" | "In Progress" | "Completed";
 }
 
+
 export const projects: Project[] = [
     {
         id: 1,
